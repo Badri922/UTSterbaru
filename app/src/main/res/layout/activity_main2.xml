@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hii Badri"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Di MyKost"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pencarian"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profil"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="300sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350sp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/pilihan"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="359sp"
+        android:layout_marginTop="165dp"
+        android:src="@drawable/garis2"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="359sp"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/garis2"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="359sp"
+        android:layout_marginTop="185dp"
+        android:src="@drawable/garis2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan dicikarang"
+        android:layout_marginTop="163dp"
+        android:layout_marginLeft="30sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:layout_width="91dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/gambar1" />
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/gambar2" />
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/gambar3" />
+
+    <ImageView
+        android:layout_width="91dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/gambar5" />
+
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/gambar6" />
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/gambar4" />
+
+    <ImageView
+        android:layout_width="91dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="540dp"
+        android:src="@drawable/gambar7" />
+
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="540dp"
+        android:src="@drawable/gambar8" />
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="540dp"
+        android:src="@drawable/gambar9" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan H.faisal"
+        android:textSize="12sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 900rb/bulan "
+        android:textSize="12sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wismar"
+        android:textSize="12sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 750rb/bulan "
+        android:textSize="12sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barokah"
+        android:textSize="12sp"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 1.2jt/bulan "
+        android:textSize="12sp"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan Putra"
+        android:textSize="12sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan mecca 1"
+        android:textSize="12sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan abrar"
+        android:textSize="12sp"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 1 Jt/Bulan"
+        android:textSize="12sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="470dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 980 Rb/Bulan"
+        android:textSize="12sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="470dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 875 Rb/Bulan"
+        android:textSize="12sp"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="470dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan Putra"
+        android:textSize="12sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="620dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan Mecca2"
+        android:textSize="12sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="620dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan subur"
+        android:textSize="12sp"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="620dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan Putra"
+        android:textSize="12sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="620dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 560 Rb/Bulan"
+        android:textSize="12sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="640dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 700 Rb/Bulan"
+        android:textSize="12sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="640dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 650 Rb/Bulan"
+        android:textSize="12sp"
+        android:layout_marginLeft="270sp"
+        android:layout_marginTop="640dp"
+        android:textColor="@color/black"/>
+
+
+
+
+
+
+</RelativeLayout>

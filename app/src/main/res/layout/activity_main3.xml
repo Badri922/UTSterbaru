@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cover"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:src="@drawable/desain1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 900 Rb/Bulan"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/design_default_color_primary_variant"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosan H.faisal"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="340dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lokasi :Kp Serang Desa Taman Rahayu Kecamatan Setu Kabupaten Bekasi Rt 002 Rw 003"
+        android:textSize="15sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="380dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fasilitas"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="420dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 Petak, Kamar Mandi di dalam, Ac 1 pk,Kasur, Lemari, Kompor, Listrik 900 Watt, Free Wifi, "
+        android:textSize="15sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="460dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/pindah"
+        android:layout_width="262dp"
+        android:layout_height="62dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:onClick="pindah"
+        android:text="Pesan" />
+
+
+
+</RelativeLayout>
